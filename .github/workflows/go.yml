@@ -6,7 +6,7 @@ name: LeetCode Progress
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: '0 0 * * *'  # 每日零点执行
 
