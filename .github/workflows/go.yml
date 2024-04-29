@@ -1,0 +1,32 @@
+# This workflow will build a golang project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
+
+name: LeetCode Progress
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每日零点执行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.17
+
+    - name: Initialize Go Module
+      run: go mod init https://github.com/kkkkevx/DSA2/tree/main
+
+    - name: Tidy Go Module
+      run: go mod tidy
+
+    - name: Build
+      run: go build main.go
+
+    - name: Run Main
+      run: go run main.go
