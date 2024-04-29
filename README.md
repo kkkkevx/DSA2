@@ -10,3 +10,4 @@
 * Hard: [[4]]
   
 Recording my journal of learning algorithm. 
+ 你好
