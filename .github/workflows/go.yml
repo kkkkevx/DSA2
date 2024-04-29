@@ -20,7 +20,7 @@ jobs:
         go-version: 1.17
 
     - name: Initialize Go Module
-      run: go mod init https://github.com/kkkkevx/DSA2/tree/main
+      run: go mod init github.com/kkkkevx/DSA2
 
     - name: Tidy Go Module
       run: go mod tidy
