@@ -10,3 +10,5 @@
 * Hard: 5
   
 Recording my journal of learning algorithm. 
+
+[**Learning Recourse**](https://labuladong.online/algo/essential-technique/array-two-pointers-summary-2/)
