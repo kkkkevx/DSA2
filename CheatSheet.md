@@ -124,3 +124,5 @@ int right_bound(int[] nums, int target) {
     - 前序位置的代码在刚刚进入一个二叉树节点的时候执行；
     - 后序位置的代码在将要离开一个二叉树节点的时候执行；
     - 中序位置的代码在一个二叉树节点左子树都遍历完，即将开始遍历右子树的时候执行。
+![image](https://github.com/kkkkevx/DSA2/assets/108632304/f754e867-4c4f-4a0e-b6df-cd5831245105)
+
