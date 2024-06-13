@@ -4,10 +4,10 @@
 
 #### Kan  [leetcode](https://leetcode.cn/u/xukanwen/)  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="20px">
 
-* Problems solved: 191
-* Easy: 64
-* Medium: 115
-* Hard: 12
+* Problems solved: 205
+* Easy: 66
+* Medium: 126
+* Hard: 13
   
 Recording my journal of learning algorithm. 
 
